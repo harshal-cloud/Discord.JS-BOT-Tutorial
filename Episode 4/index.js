@@ -16,7 +16,7 @@ const welcome = require('./commands/welcome');
 client.once('ready', () => {
     console.log('Ready.')
     //Below Status
-    client.user.setActivity('Tech Tip Cyber' , { type: "PLAYING"}) // Can Be WATCHING, STREAMING, LISTENING
+    client.user.setActivity('Tech Tip Cyber' , { type: "PLAYING" }) // Can Be WATCHING, STREAMING, LISTENING
     
     //Below Auto-Changing Status
     setInterval(() => {
