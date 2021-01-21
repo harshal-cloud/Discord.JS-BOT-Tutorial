@@ -2,10 +2,10 @@ const { MessageEmbed } = require("discord.js")
 
 module.exports = {
     commands: ['unmute', 'um'], // You Can Keep ANy Name
-    description: 'Unmutes A User.',
+    description: 'Unmutes A User.', // Optinal
     permissions: 'MANAGE_CHANNELS', // You Can Keep Any Permission
     permissionError: 'You Dont Have Perms To Mute Someone',
-    expectedArgs: '+unmute @User',
+    expectedArgs: '+unmute @User', // Optinal
 
     callback: (message, args) => {
         const member = message.mentions.members.first()
