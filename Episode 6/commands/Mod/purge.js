@@ -1,7 +1,7 @@
 module.exports ={
     commands: ['del', 'purge'],
     permissions: 'ADMINISTRATOR', // You Can Keep Any Permission
-    permissionError: 'You Cant Use It',
+    permissionError: 'You Cant Use It', 
     description: 'Deletes Message', //Optional
     callback: (message, args) => {
         const amount = parseInt(args[0]) + 1;
