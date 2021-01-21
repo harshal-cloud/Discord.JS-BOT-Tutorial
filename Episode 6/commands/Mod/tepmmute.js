@@ -30,5 +30,5 @@ module.exports = {
             await member.roles.remove('801728021438005288')
             message.channel.send(`<@${member.user.id}> Is Unmuted After ${time} Of Mute.`)
         }, ms(time))
-    }
+    } 
 }
