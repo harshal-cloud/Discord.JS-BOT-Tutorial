@@ -2,7 +2,7 @@ const ms = require('ms')
 const { MessageEmbed } = require('discord.js')
 
 module.exports = {
-    commands: ['tempban', 'tempb'] // You Can Keep Any Name
+    commands: ['tempban', 'tempb'], // You Can Keep Any Name
     description: 'Temp bans A User.',  // Optional
     permissions: 'BAN_MEMBERS', // You Can Keep Any Permission
     permissionError: 'You Dont Have Perms To Temp Ban Someone',
