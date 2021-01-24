@@ -1,7 +1,7 @@
 const { MessageEmbed } = require("discord.js")
 
 module.exports = {
-    commands: ['unban', 'ub'] // You Can Keep Any Name
+    commands: ['unban', 'ub'], // You Can Keep Any Name
     description: 'Unbans A User Using Its ID',  // Optional
     permissions: 'BAN_MEMBERS', // You Can Keep Any Permission
     permissionError: 'You Dont Have Perms To Unban Someone',
